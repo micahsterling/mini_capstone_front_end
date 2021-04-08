@@ -1,6 +1,7 @@
 <template>
   <div class="products-index">
-    <h1>{{ message }}</h1>
+    <h1 style="color: white">{{ message }}</h1>
+     <br />
    <div class="row">
       <div class="col-sm-4" v-for="product in products">
         <div class="card">
@@ -8,7 +9,7 @@
           <div class="card-body">
             <h5 class="card-title">{{product.name}}</h5>
             <p class="card-text">{{product.description}}</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">More Info</a>
           </div>
         </div>
         <br />
